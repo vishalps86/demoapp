@@ -23,7 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+//$config['base_url'] = 'http://localhost/ci_git';
+$config['base_url'] = 'https://demo-app-vishal.herokuapp.com';
 
 /*
 |--------------------------------------------------------------------------
@@ -522,4 +523,6 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-$config['Zillow_API_key'] = 'X1-ZWz176zhgsfxu3_8mfo0';
+$config['google_api_key'] = 'AIzaSyCftdI2POyIA3VaWzERnSLlEdZYYIAVU2s';
+$config['zillow_api_key'] = 'X1-ZWz176zhgsfxu3_8mfo0';
+$config['estated_api_key'] = 'YwQRS49CGgnhjpQ6BjMglQtIbrPLGe';

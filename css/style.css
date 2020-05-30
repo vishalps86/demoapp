@@ -1,0 +1,76 @@
+#map {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 20px 0px 0px 200px;
+
+}
+
+#locationField, #controls {
+  position: relative;
+  width: 475px;
+}
+#autocomplete {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 99%;
+}
+.label {
+  text-align: right;
+  font-weight: bold;
+  width: 100px;
+  color: #303030;
+  font-family: "Roboto";
+}
+#address {
+  border: 1px solid #000090;
+  background-color: #f0f9ff;
+  width: 470px;
+  padding-right: 2px;
+}
+#address td {
+  font-size: 10pt;
+  padding: 5px !important;
+}
+.field {
+  width: 99%;
+}
+.slimField {
+  width: 80px;
+}
+.wideField {
+  width: 200px;
+}
+#locationField {
+  height: 20px;
+  margin-bottom: 2px;
+}
+.submit_btn {
+  padding-top: 50px;
+  padding-left: 200px;
+}
+
+.estated-table {
+   width : 60%;   
+}
+
+.estated-table td {
+  padding: 10px;
+}
+
+.zillow-api-result,.estated-api-result {
+  padding-top: 20px;
+  display: none;
+}
+
+#zillow_error,#estated_error {
+  width: 60%;
+}
+
+.loading-gif {
+  display: none;
+}
